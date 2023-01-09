@@ -43,13 +43,13 @@ const FeaturesTiles = ({
   );
 
   const sectionHeader = {
-    title: "할말 타이틀",
-    paragraph:
-      "할말 내용 할말 내용 할말 내용 할말 내용 할말 내용 할말 내용 할말 내용 할말 내용 할말 내용 할말 내용 할말 내용 할말 내용 할말 내용 할말 내용 할말 내용 할말 내용 ",
+    title: "한국타이어특수판매㈜",
+    paragraph: `1970년대 경기상사라는 상호로 타이어 업계에 처음 뛰어들었습니다.\n끊임없는 매출액 성장에 힘입어 한국타이어로 바뀌었으며
+2004년도 현재의 국내 굴지의 그룹 및 관공서에 납품을 하고 있는\n성실하고 자금력이 튼튼한 한국타이어특수판매㈜으로 완성되었습니다.\n\n한국타이어특수판매㈜는\n중장비 타이어 및 국내에 존재하는 특수타이어 전문회사로서\n2017년부터 중국 내 단 하나의 국영기업인 \nZC RUBBER 회사와 깊은 관계를 맺어 국내 총 판매점을 담당하고 있습니다. \n\n중간 유통과정을 제거하여\n공장에서 소비자로,\n고객분들이 만족할 수 있는\n바로 유통하는 합리적인 시장가격과 서비스로 보답드리겠습니다.`,
   };
 
   return (
-    <section {...props} className={outerClasses}>
+    <section {...props} className={outerClasses} id="aboutUsId">
       <div className="container">
         <div className={innerClasses}>
           <SectionHeader data={sectionHeader} className="center-content" />
@@ -59,6 +59,7 @@ const FeaturesTiles = ({
                 <div className="features-tiles-item-header">
                   <div className="features-tiles-item-image mb-16">
                     <Image
+                      // src={require("./../../assets/images/feature-tile-icon-01.svg")}
                       src={require("./../../assets/images/feature-tile-icon-01.svg")}
                       alt="Features tile icon 01"
                       width={64}

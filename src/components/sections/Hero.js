@@ -60,7 +60,8 @@ const Hero = ({
               className="mt-0 mb-16 reveal-from-bottom"
               data-reveal-delay="200"
             >
-              신뢰와 근성의 <span className="text-color-primary">Tire</span>
+              신뢰와 근성의{" "}
+              <span className="text-color-primary">한국타이어특수판매(주)</span>
             </h1>
             <div className="container-xs">
               <p

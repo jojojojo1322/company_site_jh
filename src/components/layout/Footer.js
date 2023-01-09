@@ -35,10 +35,27 @@ const Footer = ({ className, topOuterDivider, topDivider, ...props }) => {
             <Logo />
             <FooterSocial />
           </div>
-          <div className="footer-bottom space-between text-xxs invert-order-desktop">
+          <div
+            className="footer-bottom space-between text-xxs invert-order-desktop"
+            style={{ alignItems: "flex-end" }}
+          >
             <FooterNav />
-            <div className="footer-copyright">
-              Made by <a href="https://cruip.com">Tire</a>. All right reserved
+            <div
+              className="footer-copyright"
+              style={{ whiteSpace: "pre-wrap" }}
+            >
+              <p style={{ fontSize: "40px", fontWeight: "600" }}>
+                HANKOOK SPECIAL TIRE SALES CO, LTD
+              </p>
+              <p style={{ fontSize: "25px", fontWeight: "600" }}>
+                한국타이어특수판매(주)
+              </p>
+              {`
+Company Registration Number : 107-86-75558
+Adress : Seoul Yeongdeungpo-gu, Beodeunaru-ro, 33 
+Email : wlsghks94@gmail.com\n\n`}
+              Copyright @ <a href="/">HANKOOK SPECIAL TIRE SALES CO, LTD </a>
+              All right reserved
             </div>
           </div>
         </div>

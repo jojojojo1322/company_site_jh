@@ -51,7 +51,6 @@ const Footer = ({ className, topOuterDivider, topDivider, ...props }) => {
                 한국타이어특수판매(주)
               </p>
               {`
-Company Registration Number : 107-86-75558
 Adress : Seoul Yeongdeungpo-gu, Beodeunaru-ro, 33 
 Email : wlsghks94@gmail.com\n\n`}
               Copyright @ <a href="/">HANKOOK SPECIAL TIRE SALES CO, LTD </a>

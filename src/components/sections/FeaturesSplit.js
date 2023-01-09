@@ -49,7 +49,7 @@ const FeaturesSplit = ({
   );
 
   const sectionHeader = {
-    title: "할말 타이틀",
+    title: "할말 타이틀111",
     paragraph: "할말 내용",
   };
 
